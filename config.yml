@@ -1,0 +1,9 @@
+experiment_name: synergy
+
+maximum_runs: 100
+runs_per_batch: 50
+
+parameter_grid:
+  metrics.ALPHA: arange(0.45, 0.8, 0.025)
+  metrics.BETA: [0.0]
+  metrics.SIZE: [21, 31, 41, 51]
